@@ -7,7 +7,7 @@ function handleclick(){
     fe.value=value;
     
 }
-var b=document.getElementById('temperature');
+var b=document.getElementById('tmp');
 b.addEventListener('click',handleclick);
 
 //Kilograms to Pounds Conversion
@@ -18,7 +18,7 @@ function hc2(){
     var wee=document.getElementById('lbs');
     wee.value=va;
 }
-var c=document.getElementById('weight');
+var c=document.getElementById('wgt');
 c.addEventListener('click',hc2);
 
 //Kilometer to Mile Conversion
@@ -30,5 +30,5 @@ function hc3(){
     var we=document.getElementById('m');
     we.value=valee;
 }
-var c=document.getElementById('distance');
+var c=document.getElementById('dst');
 c.addEventListener('click',hc3);
